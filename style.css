@@ -1,0 +1,99 @@
+/* GLOBAL BANNER */
+
+.banner {
+  background-color: #fff4e4;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+/* BANNER TOP */
+
+.banner-top {
+
+}
+
+.banner-text {
+  height:250px;
+  width:450px;
+}
+
+.banner-text h3 {
+  color: #f58b54;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.banner-text p, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.anniv-date {
+  margin:5px 10px;
+}
+
+.anniv-date, .banner-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.far {
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ea5e5e;
+}
+
+/* BANNER BOTTOM */
+
+.banner-bottom {
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+img {
+  width: 660px;
+  height:430px;
+}
+
+.img1 {
+  margin-left:15px;
+}
+
+.img2 {
+  margin-right:15px;
+}
+
+/* CONTAINER ZANZIBAR */
+
+.container {
+  background-color: white;
+}
+
+.container h1 {
+  text-align:center;
+  margin: 20px auto;
+  margin-top: 20px;
+}
+.zanzib-images {
+  display:grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+.zanzib-img {
+  width: 340px;
+  height: 200px;
+  margin: 10px 0px;
+  object-fit: cover;
+}
+
+.zanzib-vid {
+  width: 340px;
+  height: 200px;
+  margin: 10px 0px;
+}
+
+
